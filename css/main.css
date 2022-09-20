@@ -1,0 +1,90 @@
+
+#body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#banner{
+    width:1200px;
+    background-color: royalblue;
+    color: white;
+    height: 200px;
+    clear: both;
+    position: fixed;
+}
+#nav,#content,#supporting{
+    margin-top: 200px;
+}
+.container{
+    padding: 10px;
+}
+#wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#nav{
+    width:200px;
+    background-color: beige;
+    position: fixed;
+    height: 400px;
+}
+#content{
+    width:800px;
+    background-color:
+    wheat;
+    height: 900px;
+    float: left;
+    margin-left: 200px;
+}
+#supporting{
+    width:200px;
+    background-color:bisque;
+    color: peru;
+    height: 600px;
+    float: left;
+    
+   
+}
+
+    #footer{
+    width:1200px;
+    background-color:
+     brown;
+     color: honeydew;
+     clear: both;
+}
+#About,#Education,#Experience,#Courses,#Publications{
+    padding-top: 200px;
+    margin-top: -200px;
+}
+
+#nav li{
+    display: block;
+    background-color: coral;
+    padding: 2px;
+    margin: 5px;
+    text-align: center;
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.5) ;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+#nav ul{
+    padding-left: 0px;
+}
+
+#nav li a{
+    color: honeydew;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#nav li a:hover{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+#nav li :hover{
+    background-color: beige;
+}
